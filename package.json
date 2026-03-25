@@ -1,0 +1,26 @@
+{
+  "name": "edu-assistant-app",
+  "private": true,
+  "version": "1.0.0",
+  "description": "AI-powered exam preparation assistant with on-device LLM, STT, TTS, and VAD",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@runanywhere/web": "0.1.0-beta.10",
+    "@runanywhere/web-llamacpp": "0.1.0-beta.10",
+    "@runanywhere/web-onnx": "0.1.0-beta.10",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.0",
+    "typescript": "^5.6.0",
+    "vite": "^6.0.0"
+  }
+}
